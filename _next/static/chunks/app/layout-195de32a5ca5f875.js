@@ -1,1 +1,266 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[177],{2045:(e,t,r)=>{Promise.resolve().then(r.t.bind(r,9324,23)),Promise.resolve().then(r.bind(r,1686)),Promise.resolve().then(r.bind(r,3877)),Promise.resolve().then(r.bind(r,8983)),Promise.resolve().then(r.bind(r,4711)),Promise.resolve().then(r.bind(r,8333)),Promise.resolve().then(r.t.bind(r,489,23)),Promise.resolve().then(r.t.bind(r,8173,23))},3877:(e,t,r)=>{"use strict";r.d(t,{default:()=>i});var o=r(5155),s=r(8173),n=r.n(s),a=r(9922);let l={src:"/_next/static/media/aiqa_icon.ccb3c43f.png"};function i(){return(0,o.jsx)(n(),{href:"https://chat.wfirise.com",target:"_blank",children:(0,o.jsxs)("div",{className:"flex justify-center items-center gap-[6px] border border-[#FFEB09] rounded-[6rem] py-[19rem] px-[20rem] mr-[30rem] xl:border-none xl:py-0 xl:px-0 xl:mr-[60px]",children:[(0,o.jsx)("span",{className:"text-[22rem] text-[#FFEB09] xl:text-[16px] xl:text-white",children:"AI Q&A"}),(0,o.jsx)(a.default,{src:l.src,className:"w-[70rem] h-[26rem] pr-[7rem] text-[16rem] flex justify-center items-center xl:w-[54px] xl:h-[18px] xl:pr-[7px] xl:text-[13px] text-[#171C18] font-normal",children:"HOT"})]})})}},8983:(e,t,r)=>{"use strict";r.d(t,{default:()=>s});var o=r(5155);function s(){let e=e=>{let t=document.getElementById(e);if(!t)return;let r=t.getBoundingClientRect().top,o=window.pageYOffset||document.documentElement.scrollTop;window.scrollTo({top:r+o-86,behavior:"smooth"})};return(0,o.jsx)("div",{className:"hidden font-medium xl:flex",children:[{label:"About",id:"About"},{label:"Tokenomics",id:"Tokenomics"},{label:"Roadmap",id:"Roadmap"}].map(t=>(0,o.jsx)("div",{className:"xl:pr-[60px] xl:cursor-pointer",onClick:()=>e(t.id),children:t.label},t.id))})}},9922:(e,t,r)=>{"use strict";r.d(t,{default:()=>n});var o=r(5155),s=r(2115);function n(e){let{src:t,placeholder:r="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NgYGD4DwABBAEAblmXuwAAAABJRU5ErkJggg==",rootMargin:n="200px",threshold:a=.1,className:l="",style:i,onLoad:A,onError:c,...u}=e,d=(0,s.useRef)(null),[g,m]=(0,s.useState)(!1),[x,f]=(0,s.useState)(!1),[p,b]=(0,s.useState)(!1);(0,s.useEffect)(()=>{if(!g)return;let e=new Image;e.src=t,e.onload=()=>{f(!0),null==A||A()},e.onerror=()=>{b(!0),null==c||c()}},[g,t,A,c]),(0,s.useEffect)(()=>{let e=d.current;if(!e)return;let t=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(m(!0),t.unobserve(e.target))})},{rootMargin:n,threshold:a});return t.observe(e),()=>t.disconnect()},[n,a]);let h=p||!x?r:t,v={backgroundImage:'url("'.concat(h,'")'),backgroundSize:"cover",backgroundPosition:"center",transition:x?"opacity 0.5s ease":void 0,opacity:1,...i};return(0,o.jsx)("div",{ref:d,className:"relative overflow-hidden ".concat(l),style:v,...u})}},4711:(e,t,r)=>{"use strict";r.r(t),r.d(t,{DEFAULT_PLACEHOLDER:()=>n,default:()=>a});var o=r(5155),s=r(2115);let n="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NgYGD4DwABBAEAblmXuwAAAABJRU5ErkJggg==";function a(e){let{src:t,srcSet:r,sizes:a,alt:l="",className:i="",placeholder:A=n,rootMargin:c="200px",threshold:u=.1,onLoad:d,onError:g,...m}=e,x=(0,s.useRef)(null),[f,p]=(0,s.useState)(!1),[b,h]=(0,s.useState)(!1),[v,E]=(0,s.useState)(!1),[w,B]=(0,s.useState)(A);(0,s.useEffect)(()=>{let e=x.current;if(!e)return;let t=new IntersectionObserver((e,t)=>{e.forEach(e=>{e.isIntersecting&&(p(!0),t.unobserve(e.target))})},{rootMargin:c,threshold:u});return t.observe(e),()=>t.disconnect()},[c,u]),(0,s.useEffect)(()=>{f&&!v&&B(t)},[f,t,v]),(0,s.useEffect)(()=>{h(!1),E(!1),p(!1),B(A)},[t,A]);let R=["block w-full h-auto",b&&w===t?"opacity-100":"opacity-0","transition-opacity duration-500 ease-in-out"].join(" ");return(0,o.jsx)("div",{className:"relative ".concat(i),children:(0,o.jsx)("img",{ref:x,src:w,srcSet:b?r:void 0,sizes:b?a:void 0,alt:l,className:R,loading:"lazy",onLoad:()=>{w===t&&(h(!0),null==d||d())},onError:()=>{E(!0),B(A),h(!1),null==g||g()},...m})})}},8333:(e,t,r)=>{"use strict";r.d(t,{Toaster:()=>c});var o=r(5155),s=r(2115),n="undefined"==typeof window,a=s.createContext(void 0),l={setTheme:e=>{},themes:[]},i=()=>{var e;return null!=(e=s.useContext(a))?e:l},A=r(814);let c=e=>{let{...t}=e,{theme:r="system"}=i();return(0,o.jsx)(A.l$,{theme:r,className:"toaster group",toastOptions:{classNames:{toast:"group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg",description:"group-[.toast]:text-muted-foreground",actionButton:"group-[.toast]:bg-primary group-[.toast]:text-primary-foreground",cancelButton:"group-[.toast]:bg-muted group-[.toast]:text-muted-foreground"}},...t})}},9324:()=>{},489:()=>{},1686:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>o});let o={src:"/_next/static/media/logo.4910481a.png",height:130,width:130,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAUVBMVEU0JRIuJRZmRBClXwhEOyRDOB8sIhQuJxgkHxZMaXF/dEVKOhNaQBNTShvJewvIkR2gagxcSyU5LxodGxfbgAk8MRcyKRbhnBckIRrQvTK6eQqvJ+0MAAAAE3RSTlMts/z8sO2w8fEALvz+/P7+/i+unr5ctQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEJJREFUeJwFwQUSgDAMBMCjEqkgk1Tg/w9lF4qDORUFZIQxcwFZcI81QWb01SxD5rfebhm063l1SwDvdg9+oCBhgv5j8ALaaMM5wAAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}}},e=>{var t=t=>e(e.s=t);e.O(0,[533,904,434,441,517,358],()=>t(2045)),_N_E=e.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [177],
+  {
+    2045: (e, t, r) => {
+      Promise.resolve().then(r.t.bind(r, 9324, 23)),
+        Promise.resolve().then(r.bind(r, 1686)),
+        Promise.resolve().then(r.bind(r, 3877)),
+        Promise.resolve().then(r.bind(r, 8983)),
+        Promise.resolve().then(r.bind(r, 4711)),
+        Promise.resolve().then(r.bind(r, 8333)),
+        Promise.resolve().then(r.t.bind(r, 489, 23)),
+        Promise.resolve().then(r.t.bind(r, 8173, 23));
+    },
+    3877: (e, t, r) => {
+      "use strict";
+      r.d(t, { default: () => i });
+      var o = r(5155),
+        s = r(8173),
+        n = r.n(s),
+        a = r(9922);
+      let l = { src: "/_next/static/media/aiqa_icon.ccb3c43f.png" };
+      function i() {
+        return (0, o.jsx)(n(), {
+          href: "https://chatwolf-iota.vercel.app/",
+          target: "_blank",
+          children: (0, o.jsxs)("div", {
+            className:
+              "flex justify-center items-center gap-[6px] border border-[#FFEB09] rounded-[6rem] py-[19rem] px-[20rem] mr-[30rem] xl:border-none xl:py-0 xl:px-0 xl:mr-[60px]",
+            children: [
+              (0, o.jsx)("span", {
+                className:
+                  "text-[22rem] text-[#FFEB09] xl:text-[16px] xl:text-white",
+                children: "AI Q&A",
+              }),
+              (0, o.jsx)(a.default, {
+                src: l.src,
+                className:
+                  "w-[70rem] h-[26rem] pr-[7rem] text-[16rem] flex justify-center items-center xl:w-[54px] xl:h-[18px] xl:pr-[7px] xl:text-[13px] text-[#171C18] font-normal",
+                children: "HOT",
+              }),
+            ],
+          }),
+        });
+      }
+    },
+    8983: (e, t, r) => {
+      "use strict";
+      r.d(t, { default: () => s });
+      var o = r(5155);
+      function s() {
+        let e = (e) => {
+          let t = document.getElementById(e);
+          if (!t) return;
+          let r = t.getBoundingClientRect().top,
+            o = window.pageYOffset || document.documentElement.scrollTop;
+          window.scrollTo({ top: r + o - 86, behavior: "smooth" });
+        };
+        return (0, o.jsx)("div", {
+          className: "hidden font-medium xl:flex",
+          children: [
+            { label: "About", id: "About" },
+            { label: "Tokenomics", id: "Tokenomics" },
+            { label: "Roadmap", id: "Roadmap" },
+          ].map((t) =>
+            (0, o.jsx)(
+              "div",
+              {
+                className: "xl:pr-[60px] xl:cursor-pointer",
+                onClick: () => e(t.id),
+                children: t.label,
+              },
+              t.id
+            )
+          ),
+        });
+      }
+    },
+    9922: (e, t, r) => {
+      "use strict";
+      r.d(t, { default: () => n });
+      var o = r(5155),
+        s = r(2115);
+      function n(e) {
+        let {
+            src: t,
+            placeholder:
+              r = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NgYGD4DwABBAEAblmXuwAAAABJRU5ErkJggg==",
+            rootMargin: n = "200px",
+            threshold: a = 0.1,
+            className: l = "",
+            style: i,
+            onLoad: A,
+            onError: c,
+            ...u
+          } = e,
+          d = (0, s.useRef)(null),
+          [g, m] = (0, s.useState)(!1),
+          [x, f] = (0, s.useState)(!1),
+          [p, b] = (0, s.useState)(!1);
+        (0, s.useEffect)(() => {
+          if (!g) return;
+          let e = new Image();
+          (e.src = t),
+            (e.onload = () => {
+              f(!0), null == A || A();
+            }),
+            (e.onerror = () => {
+              b(!0), null == c || c();
+            });
+        }, [g, t, A, c]),
+          (0, s.useEffect)(() => {
+            let e = d.current;
+            if (!e) return;
+            let t = new IntersectionObserver(
+              (e) => {
+                e.forEach((e) => {
+                  e.isIntersecting && (m(!0), t.unobserve(e.target));
+                });
+              },
+              { rootMargin: n, threshold: a }
+            );
+            return t.observe(e), () => t.disconnect();
+          }, [n, a]);
+        let h = p || !x ? r : t,
+          v = {
+            backgroundImage: 'url("'.concat(h, '")'),
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            transition: x ? "opacity 0.5s ease" : void 0,
+            opacity: 1,
+            ...i,
+          };
+        return (0, o.jsx)("div", {
+          ref: d,
+          className: "relative overflow-hidden ".concat(l),
+          style: v,
+          ...u,
+        });
+      }
+    },
+    4711: (e, t, r) => {
+      "use strict";
+      r.r(t), r.d(t, { DEFAULT_PLACEHOLDER: () => n, default: () => a });
+      var o = r(5155),
+        s = r(2115);
+      let n =
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NgYGD4DwABBAEAblmXuwAAAABJRU5ErkJggg==";
+      function a(e) {
+        let {
+            src: t,
+            srcSet: r,
+            sizes: a,
+            alt: l = "",
+            className: i = "",
+            placeholder: A = n,
+            rootMargin: c = "200px",
+            threshold: u = 0.1,
+            onLoad: d,
+            onError: g,
+            ...m
+          } = e,
+          x = (0, s.useRef)(null),
+          [f, p] = (0, s.useState)(!1),
+          [b, h] = (0, s.useState)(!1),
+          [v, E] = (0, s.useState)(!1),
+          [w, B] = (0, s.useState)(A);
+        (0, s.useEffect)(() => {
+          let e = x.current;
+          if (!e) return;
+          let t = new IntersectionObserver(
+            (e, t) => {
+              e.forEach((e) => {
+                e.isIntersecting && (p(!0), t.unobserve(e.target));
+              });
+            },
+            { rootMargin: c, threshold: u }
+          );
+          return t.observe(e), () => t.disconnect();
+        }, [c, u]),
+          (0, s.useEffect)(() => {
+            f && !v && B(t);
+          }, [f, t, v]),
+          (0, s.useEffect)(() => {
+            h(!1), E(!1), p(!1), B(A);
+          }, [t, A]);
+        let R = [
+          "block w-full h-auto",
+          b && w === t ? "opacity-100" : "opacity-0",
+          "transition-opacity duration-500 ease-in-out",
+        ].join(" ");
+        return (0, o.jsx)("div", {
+          className: "relative ".concat(i),
+          children: (0, o.jsx)("img", {
+            ref: x,
+            src: w,
+            srcSet: b ? r : void 0,
+            sizes: b ? a : void 0,
+            alt: l,
+            className: R,
+            loading: "lazy",
+            onLoad: () => {
+              w === t && (h(!0), null == d || d());
+            },
+            onError: () => {
+              E(!0), B(A), h(!1), null == g || g();
+            },
+            ...m,
+          }),
+        });
+      }
+    },
+    8333: (e, t, r) => {
+      "use strict";
+      r.d(t, { Toaster: () => c });
+      var o = r(5155),
+        s = r(2115),
+        n = "undefined" == typeof window,
+        a = s.createContext(void 0),
+        l = { setTheme: (e) => {}, themes: [] },
+        i = () => {
+          var e;
+          return null != (e = s.useContext(a)) ? e : l;
+        },
+        A = r(814);
+      let c = (e) => {
+        let { ...t } = e,
+          { theme: r = "system" } = i();
+        return (0, o.jsx)(A.l$, {
+          theme: r,
+          className: "toaster group",
+          toastOptions: {
+            classNames: {
+              toast:
+                "group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg",
+              description: "group-[.toast]:text-muted-foreground",
+              actionButton:
+                "group-[.toast]:bg-primary group-[.toast]:text-primary-foreground",
+              cancelButton:
+                "group-[.toast]:bg-muted group-[.toast]:text-muted-foreground",
+            },
+          },
+          ...t,
+        });
+      };
+    },
+    9324: () => {},
+    489: () => {},
+    1686: (e, t, r) => {
+      "use strict";
+      r.r(t), r.d(t, { default: () => o });
+      let o = {
+        src: "/_next/static/media/logo.4910481a.png",
+        height: 130,
+        width: 130,
+        blurDataURL:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAUVBMVEU0JRIuJRZmRBClXwhEOyRDOB8sIhQuJxgkHxZMaXF/dEVKOhNaQBNTShvJewvIkR2gagxcSyU5LxodGxfbgAk8MRcyKRbhnBckIRrQvTK6eQqvJ+0MAAAAE3RSTlMts/z8sO2w8fEALvz+/P7+/i+unr5ctQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEJJREFUeJwFwQUSgDAMBMCjEqkgk1Tg/w9lF4qDORUFZIQxcwFZcI81QWb01SxD5rfebhm063l1SwDvdg9+oCBhgv5j8ALaaMM5wAAAAABJRU5ErkJggg==",
+        blurWidth: 8,
+        blurHeight: 8,
+      };
+    },
+  },
+  (e) => {
+    var t = (t) => e((e.s = t));
+    e.O(0, [533, 904, 434, 441, 517, 358], () => t(2045)), (_N_E = e.O());
+  },
+]);
